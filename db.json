@@ -1,10 +1,10 @@
 {
   "detalles": [
-    {"cantidad" : 3, "numReserva": 343, "sku": "34534000", "descripcion": "Elit commodo eiusmod et quis deserunt quis do veniam.", "estado" : "vigente", "origenInventario": "origen"},
-    {"cantidad" : 6, "numReserva": 343, "sku": "34534000", "descripcion": "Sint nostrud ea consequat minim labore ea velit officia sit id deserunt duis.", "estado" : "vigente", "origenInventario": "origen"},
-    {"cantidad" : 13, "numReserva": 343, "sku": "34534000", "descripcion": "Ipsum Lorem qui velit ea duis in fugiat cupidatat mollit commodo voluptate incididunt cupidatat.", "estado" : "vigente", "origenInventario": "origen"},
-    {"cantidad" : 23, "numReserva": 343, "sku": "34534000", "descripcion": "Nisi est nulla consectetur eiusmod dolore est adipisicing in ut exercitation exercitation.", "estado" : "vigente", "origenInventario": "origen"},
-    {"cantidad" : 8, "numReserva": 343, "sku": "34534000", "descripcion": "Ullamco do elit velit excepteur ex fugiat esse et aliqua tempor.", "estado" : "vigente", "origenInventario": "origen"}
+    {"id": 23, "cantidad" : 3, "numReserva": 343, "sku": "34534000", "descripcion": "Elit commodo eiusmod et quis deserunt quis do veniam.", "estado" : "vigente", "origenInventario": "origen"},
+    {"id": 25, "cantidad" : 6, "numReserva": 343, "sku": "34534000", "descripcion": "Sint nostrud ea consequat minim labore ea velit officia sit id deserunt duis.", "estado" : "vigente", "origenInventario": "origen"},
+    {"id": 26, "cantidad" : 13, "numReserva": 343, "sku": "34534000", "descripcion": "Ipsum Lorem qui velit ea duis in fugiat cupidatat mollit commodo voluptate incididunt cupidatat.", "estado" : "vigente", "origenInventario": "origen"},
+    {"id": 28, "cantidad" : 23, "numReserva": 343, "sku": "34534000", "descripcion": "Nisi est nulla consectetur eiusmod dolore est adipisicing in ut exercitation exercitation.", "estado" : "vigente", "origenInventario": "origen"},
+    {"id": 29, "cantidad" : 8, "numReserva": 343, "sku": "34534000", "descripcion": "Ullamco do elit velit excepteur ex fugiat esse et aliqua tempor.", "estado" : "vigente", "origenInventario": "origen"}
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
