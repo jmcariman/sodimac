@@ -10,7 +10,7 @@
     { "id": 1, "enrutadoHub": { "estado": false, "id": 1 }, "recepcionadoHub": { "estado" : false, "id": 2 },"id": 32, "jaulaId": 4, "numReserva": 200514969, "origenDespachoId": 201 },
     { "id": 3, "enrutadoHub": { "estado": true, "id": 1 }, "recepcionadoHub": { "estado" : false, "id": 2 },"id": 35, "jaulaId": 4, "numReserva": 200514969, "origenDespachoId": 201 },
     { "id": 5, "enrutadoHub": { "estado": false, "id": 1 }, "recepcionadoHub": { "estado" : false, "id": 2 },"id": 36, "jaulaId": 4, "numReserva": 200514969, "origenDespachoId": 201 },
-    { "id": 13, "enrutadoHub": { "estado": true, "id": 1 }, "recepcionadoHub": { "estado" : true, "id": 2 },"id": 37, "jaulaId": 4, "numReserva": 200514969, "origenDespachoId": 201 },
+    { "id": 13, "enrutadoHub": { "estado": true, "id": 1 }, "recepcionadoHub": { "estado" : true, "id": 2 },"id": 37, "jaulaId": 4, "numReserva": 200514969, "origenDespachoId": 201 }
   ],
   "profile": {
     "name": "typicode"
