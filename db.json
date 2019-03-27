@@ -14,5 +14,8 @@
   ],
   "status": {
     "status": 200
+  },
+  "fail": {
+    "status": 500
   }
 }
