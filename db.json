@@ -16,6 +16,6 @@
     "status": 200
   },
   "fail": {
-    "status": 500
+    "status": 404
   }
 }
