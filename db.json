@@ -1,31 +1,10 @@
 {
   "detalles": [
-    { "numReserva": 200514969,
-      "listadetallePreruteoDTO": [{
-        "id": 1,
-        "cantidad": 1,
-        "numReserva": 200514969,
-        "sku": "2633612",
-        "descripcion": "COMODA BLISS 78,6X40,8X80,9NEG",
-        "estado": "Enrutado Bodega",
-        "origenInventario": "136 CD Santiago",
-        "codPreruteo": 29097,
-        "numDetalle": 1,
-        "canalVenta": 20
-      },
-      {
-        "id": 2,
-        "cantidad": 15,
-        "numReserva": 200514969,
-        "sku": "2644612",
-        "descripcion": "COMODA RED 78,6X40,8X80,9NEG",
-        "estado": "Enrutado Bodega",
-        "origenInventario": "136 CD Santiago",
-        "codPreruteo": 29097,
-        "numDetalle": 2,
-        "canalVenta": 20
-      }]
-    }
+    {"id": 23, "cantidad" : 3, "numReserva": 343, "sku": "34534000", "descripcion": "Elit commodo eiusmod et quis deserunt quis do veniam.", "estado" : "vigente", "origenInventario": "origen"},
+    {"id": 25, "cantidad" : 6, "numReserva": 343, "sku": "34534000", "descripcion": "Sint nostrud ea consequat minim labore ea velit officia sit id deserunt duis.", "estado" : "vigente", "origenInventario": "origen"},
+    {"id": 26, "cantidad" : 13, "numReserva": 343, "sku": "34534000", "descripcion": "Ipsum Lorem qui velit ea duis in fugiat cupidatat mollit commodo voluptate incididunt cupidatat.", "estado" : "vigente", "origenInventario": "origen"},
+    {"id": 28, "cantidad" : 23, "numReserva": 343, "sku": "34534000", "descripcion": "Nisi est nulla consectetur eiusmod dolore est adipisicing in ut exercitation exercitation.", "estado" : "vigente", "origenInventario": "origen"},
+    {"id": 29, "cantidad" : 8, "numReserva": 343, "sku": "34534000", "descripcion": "Ullamco do elit velit excepteur ex fugiat esse et aliqua tempor.", "estado" : "vigente", "origenInventario": "origen"}
 ],
   "reservas": [
     { "enrutadoHub": { "estado": false, "id": 1 }, "recepcionadoHub": { "estado" : false, "id": 2 },"id": 32, "jaulaId": 4, "numReserva": 200514969, "origenDespachoId": 201 },
