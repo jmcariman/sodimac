@@ -15,7 +15,32 @@
   "status": {
     "status": 200
   },
-  "fail": {
-    "status": 404
-  }
+  "detallesv2": [
+    { "numReserva": 200514969,
+      "listadetallePreruteoDTO": [{
+        "id": 1,
+        "cantidad": 1,
+        "numReserva": 200514969,
+        "sku": "2633612",
+        "descripcion": "COMODA BLISS 78,6X40,8X80,9NEG",
+        "estado": "Enrutado Bodega",
+        "origenInventario": "136 CD Santiago",
+        "codPreruteo": 29097,
+        "numDetalle": 1,
+        "canalVenta": 20
+      },
+      {
+        "id": 2,
+        "cantidad": 15,
+        "numReserva": 200514969,
+        "sku": "2644612",
+        "descripcion": "COMODA RED 78,6X40,8X80,9NEG",
+        "estado": "Enrutado Bodega",
+        "origenInventario": "136 CD Santiago",
+        "codPreruteo": 29097,
+        "numDetalle": 2,
+        "canalVenta": 20
+      }]
+    }
+   ]
 }
