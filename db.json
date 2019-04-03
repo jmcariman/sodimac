@@ -7,12 +7,19 @@
     {"id": 29, "cantidad" : 8, "numReserva": 343, "sku": "34534000", "descripcion": "Ullamco do elit velit excepteur ex fugiat esse et aliqua tempor.", "estado" : "vigente", "origenInventario": "origen"}
 ],
   "reservas": [
-    {	"id": "AAAWslAAFAAABMvAAC",	"numReserva": 200514969,	"tiporeserva": "Despacho a Domicilio",	"estado": "Enrutado Bodega",	"codPreruteo": 29097,	"numJaula": 111111,	"rutaHub": null,	"recepcionadoHub": null,	
+    {	"id": "AAAWslAAFAAABMvAAC",	"numReserva": 200514969,	"tiporeserva": "Despacho a Domicilio",	"estado": "Enrutado Bodega",	"codPreruteo": 29097,	"numJaula": 111111,	"rutaHub": { "id": 1, "estado": false },	"recepcionadoHub": { "id": 2, "estado": false },	
      "listaDetalles": [
        {"numDetalle": 1, "canalVenta": 20,	"numReserva": 200514969	},
 		   {"numDetalle": 2, "canalVenta": 20,	"numReserva": 200514969	},
 		   {"numDetalle": 3, "canalVenta": 20,	"numReserva": 200514969	}
 	    ]
+    },
+    {	"id": "AAAWslAAFAAABMvAAC",	"numReserva": 200514999,	"tiporeserva": "Despacho a Domicilio",	"estado": "Enrutado Bodega",	"codPreruteo": 29097,	"numJaula": 111111,	"rutaHub": { "id": 1, "estado": true },	"recepcionadoHub": { "id": 2, "estado": false },	
+      "listaDetalles": [
+      {"numDetalle": 1, "canalVenta": 20,	"numReserva": 200514999	},
+      {"numDetalle": 2, "canalVenta": 20,	"numReserva": 200514999	},
+      {"numDetalle": 3, "canalVenta": 20,	"numReserva": 200514999	}
+    ]
     }
   ],
   "status": {
