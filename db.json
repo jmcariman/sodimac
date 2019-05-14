@@ -62,12 +62,12 @@
                 {
                     "id_usuario_rol": 1,
                     "id_usuario": 12,
-                    "id_rol": 1
+                    "id_rol": 3
                 },
                 {
                     "id_usuario_rol": 2,
                     "id_usuario": 12,
-                    "id_rol": 2
+                    "id_rol": 4
                 }
             ]
         },
@@ -77,7 +77,7 @@
                 {
                     "id_usuario_rol": 4,
                     "id_usuario": 13,
-                    "id_rol": 1
+                    "id_rol": 303
                 }
             ]
         },
@@ -87,12 +87,12 @@
                 {
                     "id_usuario_rol": 5,
                     "id_usuario": 14,
-                    "id_rol": 2
+                    "id_rol": 3
                 },
                 {
                     "id_usuario_rol": 6,
                     "id_usuario": 14,
-                    "id_rol": 1
+                    "id_rol": 21
                 }
             ]
         }
