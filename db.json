@@ -1,30 +1,27 @@
 {
   "detalles": [
-    {"id": 23, "cantidad" : 3, "numReserva": 343, "sku": "34534000", "descripcion": "Elit commodo eiusmod et quis deserunt quis do veniam.", "estado" : "vigente", "origenInventario": "origen"},
-    {"id": 25, "cantidad" : 6, "numReserva": 343, "sku": "34534000", "descripcion": "Sint nostrud ea consequat minim labore ea velit officia sit id deserunt duis.", "estado" : "vigente", "origenInventario": "origen"},
-    {"id": 26, "cantidad" : 13, "numReserva": 343, "sku": "34534000", "descripcion": "Ipsum Lorem qui velit ea duis in fugiat cupidatat mollit commodo voluptate incididunt cupidatat.", "estado" : "vigente", "origenInventario": "origen"},
-    {"id": 28, "cantidad" : 23, "numReserva": 343, "sku": "34534000", "descripcion": "Nisi est nulla consectetur eiusmod dolore est adipisicing in ut exercitation exercitation.", "estado" : "vigente", "origenInventario": "origen"},
-    {"id": 29, "cantidad" : 8, "numReserva": 343, "sku": "34534000", "descripcion": "Ullamco do elit velit excepteur ex fugiat esse et aliqua tempor.", "estado" : "vigente", "origenInventario": "origen"}
-],
-  "reservas": [
-    {	"id": "AAAWslAAFAAABMvAAC",	"numReserva": 200514969,	"tiporeserva": "Despacho a Domicilio",	"estado": "Enrutado Bodega",	"codPreruteo": 29097,	"numJaula": 111111,	"rutaHub": { "id": 1, "estado": false },	"recepcionadoHub": { "id": 2, "estado": false },	
-     "listaDetalles": [
-       {"numDetalle": 1, "canalVenta": 20,	"numReserva": 200514969	},
-		   {"numDetalle": 2, "canalVenta": 20,	"numReserva": 200514969	},
-		   {"numDetalle": 3, "canalVenta": 20,	"numReserva": 200514969	}
-	    ]
-    },
-    {	"id": "AAAWslAAFAAABMvAAC",	"numReserva": 200514999,	"tiporeserva": "Despacho a Domicilio",	"estado": "Enrutado Bodega",	"codPreruteo": 29097,	"numJaula": 111111,	"rutaHub": { "id": 1, "estado": true },	"recepcionadoHub": { "id": 2, "estado": false },	
-      "listaDetalles": [
-      {"numDetalle": 1, "canalVenta": 20,	"numReserva": 200514999	},
-      {"numDetalle": 2, "canalVenta": 20,	"numReserva": 200514999	},
-      {"numDetalle": 3, "canalVenta": 20,	"numReserva": 200514999	}
-    ]
-    }
-  ],
-  "status": {
-    "status": 200
-  },
+     {
+          "id_rol": "4",
+          "nombre_rol": "Administrador Picking",
+          "activo": 1
+     },
+     {
+	  "id_rol": "3",
+  	  "nombre_rol": "Administrador Zona",
+  	  "activo": 1
+     },
+     {
+	  "id_rol": "303",
+  	  "nombre_rol": "Retiro en tienda",
+  	  "activo": 1
+     },
+    {
+  	  "id_rol": "21",
+  	  "nombre_rol": "Encargado hub",
+  	  "activo": 21
+     }
+  ]
+  ,
   "usuariosMatriz": {
     "usuarios": [
         {
