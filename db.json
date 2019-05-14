@@ -25,32 +25,78 @@
   "status": {
     "status": 200
   },
-  "detallesv2": [
-    { "numReserva": 200514969,
-      "listadetallePreruteoDTO": [{
-        "id": 1,
-        "cantidad": 1,
-        "numReserva": 200514969,
-        "sku": "2633612",
-        "descripcion": "COMODA BLISS 78,6X40,8X80,9NEG",
-        "estado": "Enrutado Bodega",
-        "origenInventario": "136 CD Santiago",
-        "codPreruteo": 29097,
-        "numDetalle": 1,
-        "canalVenta": 20
-      },
-      {
-        "id": 2,
-        "cantidad": 15,
-        "numReserva": 200514969,
-        "sku": "2644612",
-        "descripcion": "COMODA RED 78,6X40,8X80,9NEG",
-        "estado": "Enrutado Bodega",
-        "origenInventario": "136 CD Santiago",
-        "codPreruteo": 29097,
-        "numDetalle": 2,
-        "canalVenta": 20
-      }]
-    }
-   ]
+  "usuariosMatriz": {
+    "usuarios": [
+        {
+            "id_usuario": 12,
+            "nombre_usuario": "jmcariman",
+            "nombre": "Joao Cariman Martinez",
+            "email": "jmcariman@sodimac.cl",
+            "pais": "CL",
+            "cc": "133",
+            "activo": 1
+        },
+        {
+            "id_usuario": 13,
+            "nombre_usuario": "ysazo",
+            "nombre": "Yonathan Sazo Godoy",
+            "email": "ysazo@sodimac.cl",
+            "pais": "PE",
+            "cc": "191",
+            "activo": 1
+        },
+        {
+            "id_usuario": 14,
+            "nombre_usuario": "jpaez",
+            "nombre": "Jhon Paez Juanito",
+            "email": "jpaez@sodimac.cl",
+            "pais": "MX",
+            "cc": "190",
+            "activo": 0
+        }
+    ],
+    "roles": [
+        {
+            "id_usuario": 12,
+            "roles": [
+                {
+                    "id_usuario_rol": 1,
+                    "id_usuario": 12,
+                    "id_rol": 1
+                },
+                {
+                    "id_usuario_rol": 2,
+                    "id_usuario": 12,
+                    "id_rol": 2
+                }
+            ]
+        },
+        {
+            "id_usuario": 13,
+            "roles": [
+                {
+                    "id_usuario_rol": 4,
+                    "id_usuario": 13,
+                    "id_rol": 1
+                }
+            ]
+        },
+        {
+            "id_usuario": 14,
+            "roles": [
+                {
+                    "id_usuario_rol": 5,
+                    "id_usuario": 14,
+                    "id_rol": 2
+                },
+                {
+                    "id_usuario_rol": 6,
+                    "id_usuario": 14,
+                    "id_rol": 1
+                }
+            ]
+        }
+    ],
+    "count": 3
+}
 }
