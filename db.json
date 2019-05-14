@@ -1,22 +1,22 @@
 {
   "roles": [
      {
-          "id_rol": "4",
+          "id_rol": 4,
           "nombre_rol": "Administrador Picking",
           "activo": 1
      },
      {
-	  "id_rol": "3",
+	  "id_rol": 3,
   	  "nombre_rol": "Administrador Zona",
   	  "activo": 1
      },
      {
-	  "id_rol": "303",
+	  "id_rol": 303,
   	  "nombre_rol": "Retiro en tienda",
   	  "activo": 1
      },
     {
-  	  "id_rol": "21",
+  	  "id_rol": 21,
   	  "nombre_rol": "Encargado hub",
   	  "activo": 21
      }
