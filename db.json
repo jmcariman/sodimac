@@ -95,5 +95,37 @@
         }
     ],
     "count": 3
-}
+},
+	"paises": [
+		 {
+		   "id_pais": 1,
+		   "nombre": "Chile",
+		   "cod_pais": "CL",
+		   "activo": 1
+	         },
+		 {
+		   "id_pais": 2,
+		   "nombre": "Perú",
+		   "cod_pais": "PE",
+		   "activo": 1
+	         },
+		 {
+		   "id_pais": 3,
+		   "nombre": "Argentina",
+		   "cod_pais": "AR",
+		   "activo": 1
+	         },
+		 {
+		   "id_pais": 4,
+		   "nombre": "México",
+		   "cod_pais": "MX",
+		   "activo": 1
+	         },
+		 {
+		   "id_pais": 5,
+		   "nombre": "Uruguay",
+		   "cod_pais": "UY",
+		   "activo": 1
+	         }
+	]
 }
