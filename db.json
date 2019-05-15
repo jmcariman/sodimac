@@ -1,4 +1,33 @@
 {
+  "centroCosto":[
+	  {
+		  "id_cc": 1,
+		  "cc": "133",
+		  "nombre_corto": "Test",
+		  "nombre_largo": "Centro Costo Test",
+		  "nombre_cc": "Bodega TEST",
+		  "es_tienda": false,
+		  "desactivado": false,
+	  },
+	  {
+		  "id_cc": 2,
+		  "cc": "191",
+		  "nombre_corto": "Tienda San bernardo",
+		  "nombre_largo": "Centro Costo San Bernardo",
+		  "nombre_cc": "Tienda san bernardo",
+		  "es_tienda": true,
+		  "desactivado": false,
+	  },
+	  {
+		  "id_cc": 3,
+		  "cc": "913",
+		  "nombre_corto": "Bodega Central",
+		  "nombre_largo": "Centro Costo Bodega Central",
+		  "nombre_cc": "Bodega Lo espejo",
+		  "es_tienda": false,
+		  "desactivado": true,
+	  }
+  ],
   "roles": [
      {
           "id_rol": 4,
@@ -31,7 +60,14 @@
             "email": "jmcariman@sodimac.cl",
             "pais": "CL",
             "cc": "133",
-            "activo": 1
+            "activo": 1,
+	    "id_pais": 1,
+	    "paise": {
+               "id_pais": 1,
+               "nombre": "Chile",
+               "cod_pais": "CL",
+               "activo": 1
+           }
         },
         {
             "id_usuario": 13,
@@ -40,7 +76,14 @@
             "email": "ysazo@sodimac.cl",
             "pais": "PE",
             "cc": "191",
-            "activo": 1
+            "activo": 1,
+	    "id_pais": 1,
+	    "paise": {
+               "id_pais": 1,
+               "nombre": "Chile",
+               "cod_pais": "CL",
+               "activo": 1
+           }
         },
         {
             "id_usuario": 14,
@@ -49,7 +92,14 @@
             "email": "jpaez@sodimac.cl",
             "pais": "MX",
             "cc": "190",
-            "activo": 0
+            "activo": 0,
+	    "id_pais": 2,
+	    "paise": {
+               "id_pais": 2,
+               "nombre": "Perú",
+               "cod_pais": "PE",
+               "activo": 1
+           }
         }
     ],
     "roles": [
