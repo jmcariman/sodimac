@@ -7,7 +7,7 @@
 		  "nombre_largo": "Centro Costo Test",
 		  "nombre_cc": "Bodega TEST",
 		  "es_tienda": false,
-		  "desactivado": false,
+		  "desactivado": false
 	  },
 	  {
 		  "id_cc": 2,
@@ -16,7 +16,7 @@
 		  "nombre_largo": "Centro Costo San Bernardo",
 		  "nombre_cc": "Tienda san bernardo",
 		  "es_tienda": true,
-		  "desactivado": false,
+		  "desactivado": false
 	  },
 	  {
 		  "id_cc": 3,
@@ -25,7 +25,7 @@
 		  "nombre_largo": "Centro Costo Bodega Central",
 		  "nombre_cc": "Bodega Lo espejo",
 		  "es_tienda": false,
-		  "desactivado": true,
+		  "desactivado": true
 	  }
   ],
   "roles": [
