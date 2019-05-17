@@ -1,31 +1,28 @@
 {
-  "centroCosto":[
+  "acciones":[
 	  {
-		  "id_cc": 1,
-		  "cc": "133",
-		  "nombre_corto": "Test",
-		  "nombre_largo": "Centro Costo Test",
-		  "nombre_cc": "Bodega TEST",
-		  "es_tienda": false,
-		  "desactivado": false
+		  "id_accion": 1,
+		  "id_modulo": 1,
+		  "nombre_accion": "Crear",
+		  "llave_accion": "111111AAAAA"
 	  },
 	  {
-		  "id_cc": 2,
-		  "cc": "191",
-		  "nombre_corto": "Tienda San bernardo",
-		  "nombre_largo": "Centro Costo San Bernardo",
-		  "nombre_cc": "Tienda san bernardo",
-		  "es_tienda": true,
-		  "desactivado": false
+		  "id_accion": 2,
+		  "id_modulo": 1,
+		  "nombre_accion": "Editar",
+		  "llave_accion": "111111BBBBB"
 	  },
 	  {
-		  "id_cc": 3,
-		  "cc": "913",
-		  "nombre_corto": "Bodega Central",
-		  "nombre_largo": "Centro Costo Bodega Central",
-		  "nombre_cc": "Bodega Lo espejo",
-		  "es_tienda": false,
-		  "desactivado": true
+		  "id_accion": 3,
+		  "id_modulo": 1,
+		  "nombre_accion": "Eliminar",
+		  "llave_accion": "111111CCCCC"
+	  },
+	  {
+		  "id_accion": 4,
+		  "id_modulo": 1,
+		  "nombre_accion": "Leer",
+		  "llave_accion": "111111DDDDD"
 	  }
   ],
   "roles": [
@@ -177,5 +174,55 @@
 		   "cod_pais": "UY",
 		   "activo": 1
 	         }
-	]
+	],
+	"moduloMatriz"{
+	    "roles": [
+		  {
+		    "id_rol": 4,
+		    "nombre_rol": "Administrador Picking",
+		    "activo": 1
+		  },
+		  {
+		    "id_rol": 3,
+		    "nombre_rol": "Administrador Zona",
+		    "activo": 1
+		  },
+		  {
+		    "id_rol": 303,
+		    "nombre_rol": "Retiro en tienda",
+		    "activo": 1
+		  },
+		  {
+		    "id_rol": 21,
+		    "nombre_rol": "Encargado hub",
+		    "activo": 1
+		  }
+		],
+	    "matriz": [
+		{
+		    "id_matriz_modulo_accion":	 1,
+		    "id_modulo": 1,
+		    "id_accion": 1,
+		    "id_rol": 3
+		},
+		{
+		    "id_matriz_modulo_accion":	 2,
+		    "id_modulo": 1,
+		    "id_accion": 1,
+		    "id_rol": 4
+		},
+		{
+		    "id_matriz_modulo_accion":	 3,
+		    "id_modulo": 1,
+		    "id_accion": 2,
+		    "id_rol": 3
+		},
+		{
+		    "id_matriz_modulo_accion":	 4,
+		    "id_modulo": 1,
+		    "id_accion": 4,
+		    "id_rol": 3
+		}
+	    ]
+	}
 }
