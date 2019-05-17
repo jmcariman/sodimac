@@ -13,12 +13,6 @@
 		  "llave_accion": "111111BBBBB"
 	  },
 	  {
-		  "id_accion": 3,
-		  "id_modulo": 1,
-		  "nombre_accion": "Eliminar",
-		  "llave_accion": "111111CCCCC"
-	  },
-	  {
 		  "id_accion": 4,
 		  "id_modulo": 1,
 		  "nombre_accion": "Leer",
