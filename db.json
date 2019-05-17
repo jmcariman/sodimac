@@ -175,7 +175,7 @@
 		   "activo": 1
 	         }
 	],
-	"moduloMatriz"{
+	"moduloMatriz": {
 	    "roles": [
 		  {
 		    "id_rol": 4,
