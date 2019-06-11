@@ -1,24 +1,5 @@
 {
-  "acciones":[
-	  {
-		  "id_accion": 1,
-		  "id_modulo": 1,
-		  "nombre_accion": "Crear",
-		  "llave_accion": "111111AAAAA"
-	  },
-	  {
-		  "id_accion": 2,
-		  "id_modulo": 1,
-		  "nombre_accion": "Editar",
-		  "llave_accion": "111111BBBBB"
-	  },
-	  {
-		  "id_accion": 4,
-		  "id_modulo": 1,
-		  "nombre_accion": "Leer",
-		  "llave_accion": "111111DDDDD"
-	  }
-  ],
+  "dummySuccess":{ "status": 200 },
   "roles": [
      {
           "id_rol": 4,
